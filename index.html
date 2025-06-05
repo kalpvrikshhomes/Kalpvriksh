@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalpvriksh - Interior Design Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans text-gray-900">
+    <header class="bg-green-100 shadow-md">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-green-900">Kalpvriksh</h1>
+        <button id="menu-toggle" class="md:hidden text-green-800 focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+        <nav class="hidden md:flex space-x-6 text-green-800 font-medium">
+          <a href="#services" class="hover:text-green-600">Services</a>
+          <a href="#why" class="hover:text-green-600">Why Choose Us</a>
+          <a href="#contact" class="hover:text-green-600">Contact</a>
+        </nav>
+      </div>
+      <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+        <a href="#services" class="block py-2 text-green-800">Services</a>
+        <a href="#why" class="block py-2 text-green-800">Why Choose Us</a>
+        <a href="#contact" class="block py-2 text-green-800">Contact</a>
+      </div>
+    </header>
+
+    <section class="relative bg-green-50">
+      <img src="./resources\kalp_image.jpg" alt="Kalpvriksh Hero" class="w-full h-96 object-cover">
+      <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
+        <div class="text-center px-4">
+          <h2 class="text-4xl md:text-5xl font-bold text-white">make your dream come home</h2>
+          <p class="mt-4 text-lg text-white">Interior designing, Modular Kitchen, Carpentry Work, False Ceiling</p>
+          <div class="mt-6 space-x-4">
+            <a href="#contact" class="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700">Get a Quote</a>
+            <a href="#contact" class="bg-yellow-500 text-white px-6 py-2 rounded-md hover:bg-yellow-600">Book a Service</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center text-green-900">Our Services</h3>
+        <div class="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-center">
+          <div class="p-6 border rounded-lg shadow-sm">
+            <h4 class="text-xl font-semibold text-blue-800">Interior Designing</h4>
+            <p class="mt-2 text-gray-600">Transform your space into a masterpiece with custom designs.</p>
+          </div>
+          <div class="p-6 border rounded-lg shadow-sm">
+            <h4 class="text-xl font-semibold text-blue-800">Modular Kitchen</h4>
+            <p class="mt-2 text-gray-600">Sleek, modern, and functional kitchen designs tailored for you.</p>
+          </div>
+          <div class="p-6 border rounded-lg shadow-sm">
+            <h4 class="text-xl font-semibold text-blue-800">Carpentry Work</h4>
+            <p class="mt-2 text-gray-600">Expert craftsmanship for all your wooden interiors and furniture.</p>
+          </div>
+          <div class="p-6 border rounded-lg shadow-sm">
+            <h4 class="text-xl font-semibold text-blue-800">False Ceiling</h4>
+            <p class="mt-2 text-gray-600">Modern ceiling solutions to enhance ambiance and lighting.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="py-16 bg-green-50">
+      <div class="max-w-5xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center text-green-900 mb-8">Our Portfolio</h3>
+        <div class="overflow-x-auto text-center">
+          <div class="flex space-x-6 min-w-full">
+            <div class="min-w-[300px] bg-gray-50 border rounded-lg shadow-sm">
+              <a href="https://drive.google.com/file/d/1-example1/view" target="_blank">
+                <img src="https://png.pngtree.com/thumb_back/fw800/background/20250326/pngtree-elegant-mint-green-neoclassical-living-room-with-tufted-sofa-and-gold-image_17146948.jpg" alt="Design 1" class="rounded-t-lg w-full h-48 object-cover">
+                <div class="p-4 text-center">
+                  <p class="text-blue-800 font-medium">Living Room Design</p>
+                </div>
+              </a>
+            </div>
+            <div class="min-w-[300px] bg-gray-50 border rounded-lg shadow-sm">
+              <a href="https://drive.google.com/file/d/2-example2/view" target="_blank">
+                <img src="https://media.designcafe.com/wp-content/uploads/2020/05/09150825/blue-and-white-modular-kitchen-design.jpg" alt="Design 2" class="rounded-t-lg w-full h-48 object-cover">
+                <div class="p-4 text-center">
+                  <p class="text-blue-800 font-medium">Modular Kitchen Layout</p>
+                </div>
+              </a>
+            </div>
+            <div class="min-w-[300px] bg-gray-50 border rounded-lg shadow-sm">
+              <a href="https://drive.google.com/file/d/3-example3/view" target="_blank">
+                <img src="C:\Geetansh (E)\kalpavriksha\kalpavriksha\resources\view-futuristic-lighting-lamp-design.jpg" alt="Design 3" class="rounded-t-lg w-full h-48 object-cover">
+                <div class="p-4 text-center">
+                  <p class="text-blue-800 font-medium">False Ceiling Concept</p>
+                </div>
+              </a>
+            </div>
+            <div class="min-w-[300px] bg-gray-50 border rounded-lg shadow-sm">
+              <a href="https://drive.google.com/file/d/3-example3/view" target="_blank">
+                <img src="C:\Geetansh (E)\kalpavriksha\kalpavriksha\resources\bedroom-layout-ideas.jpg" alt="Design 4" class="rounded-t-lg w-full h-48 object-cover">
+                <div class="p-4 text-center">
+                  <p class="text-blue-800 font-medium">Bed room Layout</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <h3 class="text-3xl font-bold text-green-900">Why Choose Us</h3>
+        <p class="mt-6 text-gray-700 max-w-3xl mx-auto">We bring your imagination to life with creativity, professionalism, and unmatched quality. From concept to creation, we work closely with you to ensure every detail reflects your taste and requirements. Our team is passionate, experienced, and driven by the goal of delivering spaces that speak your story.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-green-50">
+      <div class="max-w-xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center text-green-900">Contact Us</h3>
+        <form action="https://formspree.io/f/xbloydrk" method="POST" class="mt-8 space-y-6">
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+            <input type="text" id="name" name="name" required class="w-full border border-gray-300 px-4 py-2 rounded-md">
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+            <input type="email" id="email" name="email" required class="w-full border border-gray-300 px-4 py-2 rounded-md">
+          </div>
+          <div>
+            <label for="service" class="block text-sm font-medium text-gray-700">Service Required</label>
+            <select id="service" name="service" required class="w-full border border-gray-300 px-4 py-2 rounded-md">
+              <option value="">Select a service</option>
+              <option>Interior Designing</option>
+              <option>Modular Kitchen</option>
+              <option>Carpentry Work</option>
+              <option>False Ceiling</option>
+            </select>
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full border border-gray-300 px-4 py-2 rounded-md"></textarea>
+          </div>
+          <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700">Contact Now</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-green-900 text-white py-6">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <p class="text-sm">&copy; 2025 Kalpvriksh. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('menu-toggle').addEventListener('click', function () {
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
